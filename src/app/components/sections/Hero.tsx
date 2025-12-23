@@ -513,9 +513,7 @@ const HeroSection = () => {
             />
             
             {/* Tech linaer Overlay - Fixed typo: "linaer" to "linear" */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-950/90 via-blue-900/80 to-cyan-900/90"></div>
-            
-            {/* Animated Code Pattern Overlay - Only render on client */}
+<div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>            {/* Animated Code Pattern Overlay - Only render on client */}
             {isClient && (
               <div className="absolute inset-0 opacity-10">
                 {[...Array(20)].map((_, i) => (
